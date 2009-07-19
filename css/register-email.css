@@ -1,0 +1,59 @@
+/*
+    Modal PHP Ajax Form
+
+    @author:    Kien Tran (kientran@kientran.com)
+    @version:   1.0
+    @date:      16 July 2009
+
+    This project aims to create a basic php form submitter with AJAX
+    support while maintaining complete graceful degredation in case
+    of issues with the Javascript on the client side.  
+
+    This code is the CSS that controls the modal overlay/container
+    styling.  Please see Eric Martin's Simple Modal for more
+    information on styling the modal box itself.
+    http://www.ericmmartin.com/projects/simplemodal/
+
+*/
+
+.simplemodal-overlay {background-color:#000; cursor:wait;}
+.simplemodal-container {background-color:#fff; border:3px solid #ccc;}
+
+/* 
+    If you wish to resize this container, you need to do it via
+    javascript in the modal window call as well as here.
+*/
+#register-email-container {
+    width:400px;
+    height:150px;
+    padding:10px;
+}
+
+#register-email-container h1 {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align:center;
+}
+
+#register-email-container .form-response {
+    text-align:center;
+}
+
+#register-email-container label {
+    clear:left;
+    display:block;
+    width:50px;
+    text-align:right;
+    float:left;
+    padding-right:4px;
+}
+
+#register-email-container input {
+    margin: 2px;
+    padding: 2px;
+    width: 300px;
+}
+
+#register-email-container button {
+    margin:4px;
+}

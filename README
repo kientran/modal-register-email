@@ -1,0 +1,14 @@
+Modal PHP Ajax Form
+
+@author:    Kien Tran (kientran@kientran.com)
+@version:   1.0
+@date:      16 July 2009
+
+This project aims to create a basic php form submitter with AJAX
+support while maintaining complete graceful degredation in case
+of issues with the Javascript on the client side.  
+
+This code is the AJAX handler.  It uses jQuery and SimpleModal
+by Eric Martin (http://www.ericmmartin.com/projects/simplemodal/)
+
+
