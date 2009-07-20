@@ -53,7 +53,7 @@ var register = {
                 $.post('php/register-email.php', 
                     $('#register-email-container form').serialize(),
                     function (response) {
-                        if (response == 'OK'.trim()) {
+                        if ($.trim(response) == 'OK') {
                             // Email was validated and sent
                             $('#register-email-container form').css( {display: 'none' });
                             $('#register-email-container .form-response').css( { color: 'black' } );
