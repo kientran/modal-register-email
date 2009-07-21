@@ -42,7 +42,6 @@ if (empty($action))
 
    // Send the signup form
     $output = <<<SFORM
-<div style='display:none;'>
 <div class='register-email-content'>
 <h1 class='form-header'>Sign Up for our Email Newsletter</h1>
 <div class='form-response'></div>
@@ -55,7 +54,6 @@ if (empty($action))
     <button type='submit' class='register-submit'>Submit</button>
     <button type='cancel' class='register-cancel'>Cancel</button>
 </form>
-</div>
 </div>
 SFORM;
 
